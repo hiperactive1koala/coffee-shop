@@ -83,11 +83,11 @@ const Types = () => {
             </div>
           </div>
           <div className='type-card liberica'>
-          <h1>ARABICA</h1>
-            <p className='p'>OVAL-SHAPED, FLAT, DARK AND CREASY</p>
+          <h1>LIBERICA</h1>
+            <p className='p'>LARGE, ASYMMETRICAL, TEARDROP-SHAPED</p>
             <div className='line'></div>
             <h3>TASTE:</h3>
-            <p className='p' id='explanation'>Delicate, smooth fruity and sweet, sligthly acidic</p>
+            <p className='p' id='explanation'>Bitter top-notes with a hit of floral and spice, slightly smoky</p>
             <h2>AROMA:</h2>
             <div>
               <img src={bean} alt="filledbean" />
