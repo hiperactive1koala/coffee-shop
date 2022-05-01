@@ -1,0 +1,70 @@
+.home {
+    background-image: url('../../images/coffee.jpg');
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    height: 100vh;
+    max-width: 1440px;
+    width: 100%;
+    top: 0;
+    background-color: #000;
+    z-index: 5;
+    margin-bottom: 50px;
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    /* background: rgba(147, 101, 56, 0.366); */
+    background: linear-gradient(90deg, rgba(37, 33, 33, 0.622) 0%, rgba(90, 47, 25, 0.349) 49%, rgba(47, 18, 3, 0.54) 100%);
+    position: relative;
+}
+
+.texts {
+    padding-top: 25%;
+    padding-left: 15%;
+    color: #fff;
+}
+
+h1 {
+    line-height: 48px;
+    font-size: 64px;
+    font-weight: bolder;
+    font-family: 'Stylish', sans-serif;
+}
+
+p {
+    font-family: 'Srisakdi', cursive;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-size: 36px;
+    padding-top: 15px;
+}
+
+button {
+    border: none;
+    margin-top: 50px;
+    padding: 22px 30px;
+    font-size: 36px;
+    color: var(--bttn-color);
+    background-color: var(--bttn-bg-color);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .home {
+        background-position: 50% 70%;
+    }
+    .texts {
+        padding-top: 40%;
+        padding-left: 10%;
+        color: #fff;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 27px;
+    }
+}

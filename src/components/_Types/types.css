@@ -1,0 +1,133 @@
+.types {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    scroll-margin-top: 75px;
+}
+
+.types-header {
+    color: var(--bttn-bg-color);
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    margin-right: 10%;
+    margin-top: 25px;
+}
+
+.types-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.types-images>img {
+    max-width: 99%;
+    margin-top: 70px;
+}
+
+svg {
+    max-width: 100%;
+}
+
+@media screen and (min-width:670px) {
+    .types-images {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .types-images>img {
+        max-width: 60%;
+        margin-top: 0;
+        margin-right: 20px;
+    }
+}
+
+.types-main {
+    width: 100%;
+}
+
+.type-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Stylish', sans-serif;
+}
+
+.type-card {
+    width: 320px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.type-card>h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.type-card>.p {
+    font-family: 'Stylish', sans-serif;
+    font-size: 16px;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+}
+
+.line {
+    border-bottom: 2px solid white;
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#explanation {
+    font-size: 24px;
+}
+
+.arabica {
+    margin-bottom: 100px;
+    background: rgb(7, 49, 16);
+    background: linear-gradient(180deg, rgba(7, 49, 16, 1) 0%, rgba(75, 15, 15, 1) 100%);
+}
+
+.robusta {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(13, 26, 73);
+    background: linear-gradient(180deg, rgba(13, 26, 73, 1) 0%, rgba(35, 15, 10, 1) 100%)
+}
+
+.liberica {
+    margin-top: 100px;
+    background: rgb(72, 42, 35);
+    background: linear-gradient(180deg, rgba(72, 42, 35, 1) 0%, rgba(29, 19, 29, 1) 100%);
+    margin-right: 0;
+}
+
+.pad {
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .type-cards {
+        margin-top: 70px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .type-card {
+        margin-right: 0px;
+        padding-left: 10px;
+        width: 290px;
+    }
+    .arabica {
+        margin-bottom: 0;
+    }
+    .liberica {
+        margin-right: 40px;
+        margin-top: 0;
+    }
+}

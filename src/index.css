@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Itim&family=Srisakdi&family=Stylish&display=swap');
+:root {
+    --bg-color: #E0D5D0;
+    --bttn-bg-color: #B24343;
+    --bttn-color: #ffffffa4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+body {
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    max-width: 1440px;
+    width: 100%;
+    flex: 1;
+    margin: 0 auto;
 }
